@@ -6,6 +6,7 @@ import Footer from './components/common/Footer/Footer';
 import Navbar from './components/common/Navbar/Navbar';
 import ProductListing from './components/common/ProductListing/ProductListing';
 import SingleProductPage from './components/common/SingleProductPage/SingleProductPage';
+import MarketingPage from './components/pages/MarketingPage/MarketingPage';
 
 function App() {
   return (
@@ -14,10 +15,10 @@ function App() {
         <Navbar/>
         <Routes>
           <Route element={<Home/>} path='/'/>
+          <Route element={<MarketingPage/>} path='/marketingpage'/>
+
           <Route element={<ProductListing/>} path='/productlists'/>
           <Route element={<SingleProductPage/>} path='/singleproductpage'/>
-
-
         </Routes>
         <Footer/>
       </Router>

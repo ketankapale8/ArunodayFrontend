@@ -1,0 +1,45 @@
+.features{
+    width: 100%;
+    height: 800px;
+    padding-bottom: 20px;
+
+    .featuresContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        // align-items: center;
+        // justify-content: center;
+
+        .featuresLeft{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            text-align: start;
+            width: 600px;
+            .animation{
+                padding-top: 30px;
+                .normalHeading{
+                    font-size: 2.3rem;
+                }
+                .coloredHeading{
+                    color: darkblue;
+                    font-size: 2.3rem;
+                    font-weight: bold;  
+
+                }
+
+            }
+
+            
+        }
+
+        .featuresRight{
+            display: flex;
+            flex-direction: column;
+
+
+        }
+    }
+}
