@@ -1,0 +1,85 @@
+.footer{
+    width: 100%;
+    height: 250px;
+    padding-top: 50px;
+    // border-top: 2px solid black;
+    background: rgb(46,49,146);
+    color: white;
+    background: linear-gradient(310deg, rgba(46,49,146,0) 4%, rgba(30,34,179,0.8267682072829132) 30%);
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 20px;
+
+
+    // .liner{
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: space-between;
+
+    // }
+
+    .footerContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        // align-items: center;
+
+        .fc{
+            display: flex;
+            flex-direction: row ;
+            .subContainer{
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+                text-align: start;
+                .title{
+                    font-weight: bold;
+                    text-transform: uppercase;
+
+                }
+                .title:hover{
+                    color: black;
+                    // color: rgb(46,49,146);
+                }
+    
+                .listView{
+                    display: flex;
+                    flex-direction: column;
+                    
+    
+                    p{
+                        max-height: 10px;
+                        cursor: pointer;
+                    }
+
+                    p:hover{
+                    color: black;
+
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+.bottom1{
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 0.5px solid lightgray;
+    padding-left: 300px;
+    padding-right: 100px;
+    justify-content: space-between;
+    background: rgb(46,49,146);
+    color: white;
+    background: linear-gradient(310deg, rgba(46,49,146,0) 4%, rgba(30,34,179,0.8267682072829132) 30%);
+
+}

@@ -1,0 +1,57 @@
+
+.categoriesRowView{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: start;
+    
+    
+    
+    
+    .categories{
+        width: 100%;
+        height: 250px;
+        
+        .categoryContainer{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h4{
+                font-size: 1rem;
+            }
+
+
+            h4:hover{
+                color: rgb(46,49,146);
+                cursor: pointer;
+            }
+        
+            
+            // align-items: center;
+            // justify-content: center;
+        
+            .listView{
+
+                p{
+                display: flex;
+                flex-direction: column;
+                line-height: 18px;
+                cursor: pointer;
+                }
+        
+            }
+        
+        
+        
+        
+        }
+}
+    
+
+}

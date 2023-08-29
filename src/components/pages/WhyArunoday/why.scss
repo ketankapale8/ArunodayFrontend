@@ -1,0 +1,64 @@
+.why{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background: rgb(46,49,146);
+background: linear-gradient(310deg, rgba(46,49,146,0) 4%, rgba(30,34,179,0.8267682072829132) 30%);
+
+    .whyContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 450px;
+        color: white;
+        
+
+
+        .title{
+            font-size: 3.5rem;
+            font-weight: bold;
+
+            
+        }
+
+        .featuresContainer{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-top: 30px;
+            gap: 40px;
+
+            .featuredItem{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .plusContainer{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 5px;
+                    .plusicon{
+                        font-size: 1.3rem;
+                    }
+                }
+
+
+                .iconPack{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+
+                    .icons{
+                        width: 45px;
+                        height: 45px;
+                        color: white !important;
+                    }
+                    .iconDesc{
+                        font-size: 1rem;
+                    }
+                    
+                }
+            }
+        }
+    }
+}

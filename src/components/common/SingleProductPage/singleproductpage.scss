@@ -1,0 +1,127 @@
+.singlePage{
+    width: 100%;
+    height:auto;
+    margin-bottom: 30px;
+
+    .singlePageContainer{
+        margin: 0px 20px;
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: row;
+        // border: 1px solid gray;
+        // align-items: center;
+        // justify-content: center;
+
+        .left{
+            width: 400px;
+            height: 700px;
+            padding-top: 30px;
+            border-radius: 30px;
+
+            .productbannerImg{
+                width: 350px;
+                height: 550px;
+                border-radius: 55px;
+
+            }
+            
+        }
+
+        .right{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            text-align: start;
+
+            h2{
+                font-size: 2rem;
+            }
+
+            h4{
+                color: gray;
+                font-size: 1.2rem;
+
+            }
+
+            .priceContainer{
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                .price{
+                    font-size: 1.2rem;
+                }
+    
+                .discount{
+                    width: 85px;
+                    height: 30px;
+                    padding-left: 3px;
+                    font-size: 1.2rem;
+                    border-radius: 10px;
+
+                    background-color: #FFC22B;
+                }
+
+                .clickForSeller{
+                    background-color: green;
+                    width: 225px;
+                    height: 30px;
+                    padding-left: 3px;
+                    font-size: 1.2rem;
+                    border-radius: 10px;
+                    color: white;
+                    padding-top: 3px;
+                    cursor: pointer;
+                }
+            }
+
+            .productDetails{
+                margin-top: 20px;
+                border-radius: 10px;
+                width: 750px;
+                height: 370px;
+                border: 1px solid gray;
+
+                .productDetailsHeading{
+                    h4{
+                            padding-top: 5px;
+                            padding-left: 15px;
+                            border-bottom: 3px solid #FFC22B;
+
+                    }
+                }
+
+                .productDetailsList{
+                    p{
+                        padding-left: 20px;
+                        font-size: 1.2rem;
+                    }
+                }
+
+
+            }
+
+        }
+
+        
+
+
+    }
+
+    .bottomPageProductDetailsCommon{
+        text-align: start;
+        border-radius: 20px;
+        margin: 0 60px;
+        margin-top: 50px;
+        padding: 20px 20px ;
+        height: auto;
+        border: 1px solid black;
+        ul{
+            gap: 10px;
+
+            li{
+                padding-top: 15px;
+            }
+        }
+    }
+}
