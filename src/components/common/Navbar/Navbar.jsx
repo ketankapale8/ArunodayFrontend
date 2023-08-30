@@ -17,6 +17,9 @@ const Navbar = () => {
             </div>
 
             <div className="options">
+              <Link to="/shop" >
+                <h4 >Shop</h4>
+              </Link>
                 <h4>Auctions</h4>
                 <h4>Bids</h4>
                 <h4>Sign Up</h4>

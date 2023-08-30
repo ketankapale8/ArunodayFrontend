@@ -1,0 +1,310 @@
+.brandsC{
+    .descTitleBrands{
+        // padding: 60px;
+        font-size: 2.5rem;
+        padding-bottom: 30px;
+    }
+
+    .icons {
+        display: inline-block;
+        height: 100%;
+        max-width:500px;
+        position: relative;
+        vertical-align: top;
+      }
+      .icon-container {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-name: floating;
+        animation-name: floating;
+        -webkit-animation-play-state: running;
+        animation-play-state: running;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+        background-color: #fff;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        box-shadow: 0 5px 40px 0 rgba(23, 28, 33, 0.13),
+          0 20px 13px 0 rgba(23, 28, 33, 0.05);
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        opacity: 1;
+        -webkit-transition: margin 1s cubic-bezier(0.2, 0.6, 0.3, 1), opacity 2s ease;
+        transition: margin 1s cubic-bezier(0.2, 0.6, 0.3, 1), opacity 2s ease;
+        animation-duration: 4s;
+        height: 144px;
+        margin-left: 76px;
+        margin-top: -25px;
+        position: absolute;
+        width: 144px;
+      }
+      
+      @keyframes floating {
+        0% {
+          -webkit-transform: translateY(8px) rotate3d(0, 0, 1, 3deg);
+          transform: translateY(8px) rotate3d(0, 0, 1, 3deg);
+        }
+      
+        100% {
+          -webkit-transform: translateY(-8px) rotate3d(0, 0, 1, 0deg);
+          transform: translateY(-8px) rotate3d(0, 0, 1, 0deg);
+        }
+      }
+      
+      .icon {
+        width: 140px;
+        height: 140px;
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+      
+      
+      .google {
+        -webkit-animation-duration: 4s;
+        animation-duration: 4s;
+        height: 95px;
+        margin-left: 76px;
+        margin-top: 20px;
+        position: absolute;
+        width: 95px;
+      }
+      .microsoft {
+         -webkit-animation-delay: -.9s;
+          animation-delay: -.9s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 95px;
+          margin-left: -130px;
+          margin-top: 140px;
+          position: absolute;
+          -webkit-transition-delay: .7s;
+          transition-delay: .7s;
+          width: 95px;
+      }
+      .bitbucket {
+         -webkit-animation-delay: -2.2s;
+          animation-delay: -2.2s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 95px;
+          margin-left: -225px;
+          margin-top: 89px;
+          position: absolute;
+          -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+          width: 95px;
+      }
+      .digitalocean {
+         -webkit-animation-delay: -2.9s;
+          animation-delay: -2.9s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 95px;
+          margin-left: -408px;
+          margin-top: 157px;
+          position: absolute;
+          -webkit-transition-delay: .6s;
+          transition-delay: .6s;
+          width: 95px;
+      }
+      .ubuntu {
+        -webkit-animation-delay: -1.8s;
+          animation-delay: -1.8s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 90px;
+          margin-left: -357px;
+          margin-top: 38px;
+          position: absolute;
+          -webkit-transition-delay: .1s;
+          transition-delay: .1s;
+          width: 90px;
+      }
+      
+      .nginx {
+         -webkit-animation-delay: -2.9s;
+          animation-delay: -2.9s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 90px;
+          margin-left: -38px;
+          margin-top: 115px;
+          position: absolute;
+          -webkit-transition-delay: .6s;
+          transition-delay: .6s;
+          width: 90px;
+      }
+      .github {
+          -webkit-animation-delay: -2.2s;
+          animation-delay: -2.2s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 90px;
+          margin-left: -251px;
+          margin-top: 209px;
+          position: absolute;
+          -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+          width: 90px;
+      }
+      .facebook {
+          -webkit-animation-delay: -2.2s;
+          animation-delay: -2.2s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 90px;
+          margin-left: -541px;
+          margin-top: 242px;
+          position: absolute;
+          -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+          width: 90px;
+      }
+      .wordpress{
+         -webkit-animation-delay: -2.2s;
+          animation-delay: -2.2s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 80px;
+          margin-left: -161px;
+          margin-top: 262px;
+          position: absolute;
+          -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+          width: 80px;
+      }
+      .cloudflare {
+           -webkit-animation-delay: -2.2s;
+          animation-delay: -2.2s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 90px;
+          margin-left: 411px;
+          margin-top: 285px;
+          position: absolute;
+          -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+          width: 90px;
+      }
+      .instagram {
+           -webkit-animation-delay: -2.2s;
+          animation-delay: -2.2s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 90px;
+          margin-left: 307px;
+          margin-top: 25px;
+          position: absolute;
+          -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+          width: 90px;
+      }
+      .instagram1 {
+        -webkit-animation-delay: -2.2s;
+       animation-delay: -2.2s;
+       -webkit-animation-duration: 4s;
+       animation-duration: 4s;
+       height: 90px;
+       margin-left: -307px;
+       margin-top: 25px;
+       position: absolute;
+       -webkit-transition-delay: .2s;
+       transition-delay: .2s;
+       width: 90px;
+   }
+
+   .instagram12 {
+    -webkit-animation-delay: -2.2s;
+   animation-delay: -2.2s;
+   -webkit-animation-duration: 4s;
+   animation-duration: 4s;
+   height: 90px;
+   margin-left: -607px;
+   margin-top: 25px;
+   position: absolute;
+   -webkit-transition-delay: .2s;
+   transition-delay: .2s;
+   width: 90px;
+}
+      .twitter {
+           -webkit-animation-delay: -2.2s;
+          animation-delay: -2.2s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 90px;
+          margin-left: -207px;
+          margin-top: 25px;
+          position: absolute;
+          -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+          width: 90px;
+      }
+      .linkedin {
+           -webkit-animation-delay: -2.2s;
+          animation-delay: -2.2s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 90px;
+          margin-left: 495px;
+          margin-top: 250px;
+          position: absolute;
+          -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+          width: 90px;
+      }
+      .twitter {
+         -webkit-animation-delay: -2.2s;
+          animation-delay: -2.2s;
+          -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+          height: 90px;
+          margin-left: 45px;
+          margin-top: 360px;
+          position: absolute;
+          -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+          width: 90px;
+      }
+
+      .linkedin1 {
+        -webkit-animation-delay: -2.2s;
+       animation-delay: -2.2s;
+       -webkit-animation-duration: 4s;
+       animation-duration: 4s;
+       height: 90px;
+       margin-left: -55px;
+       margin-top: 250px;
+       position: absolute;
+       -webkit-transition-delay: .2s;
+       transition-delay: .2s;
+       width: 90px;
+   }
+   .twitter1 {
+      -webkit-animation-delay: -2.2s;
+       animation-delay: -2.2s;
+       -webkit-animation-duration: 4s;
+       animation-duration: 4s;
+       height: 90px;
+       margin-left: -445px;
+       margin-top: 360px;
+       position: absolute;
+       -webkit-transition-delay: .2s;
+       transition-delay: .2s;
+       width: 90px;
+   }
+      
+}

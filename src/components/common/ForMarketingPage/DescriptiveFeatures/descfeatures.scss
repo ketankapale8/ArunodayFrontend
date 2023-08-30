@@ -1,0 +1,95 @@
+.maindescriptionContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F9FF;
+
+    .descTitle{
+        // padding: 60px;
+        font-size: 2.5rem;
+        padding-bottom: 30px;
+    }
+
+
+    .container {
+        display: flex;
+        height: 300px;
+        gap: 40px;
+        padding-bottom: 40px;
+        padding: 0px 170px;
+        // background-color: #F3F9FF;
+        .section {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 80%;
+          gap: 20px;
+          width: 400px;
+          overflow: hidden;
+          background-size: cover;
+          background-position: center;
+          color: #fff;
+          transition: flex .4s ease;
+          position: relative;
+        }
+        
+        .section .overlay {
+          background-color: rgba(0, 0, 0, 0.7);
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          transition: background-color .8s ease;
+        }
+        
+        .section .content {
+          z-index: 2;
+          p{
+              padding-left: 20px;
+              padding-right: 20px;
+              display: none;
+          }
+        }
+      
+        .content:hover{
+          p{
+              display: block;
+          }
+        }
+        
+        .section:hover {
+          flex: 2;
+        }
+        
+        .section:hover .overlay {
+          background-color: rgba(0, 0, 0, 0.95);
+        }
+        
+        #marketing {
+          background-image: url('../../../../assets/DescFeatures/1.jpg')
+        }
+        
+        
+        #technology {
+          background-image: url('../../../../assets/DescFeatures/2.jpg')
+        }
+
+
+        #advertising {
+          background-image: url('../../../../assets/DescFeatures/3.jpg');
+        }
+
+        #support{
+          background-image: url('../../../../assets/DescFeatures/4.jpg'); ;
+        }
+
+        #crm{
+          background-image: url('../../../../assets/DescFeatures/5.jpg'); ;
+        }
+        #marketingA{
+          background-image: url('../../../../assets/DescFeatures/6.jpg'); ;
+        }
+      }
+      
+}
+
+  
